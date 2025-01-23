@@ -1,4 +1,4 @@
-namespace QC_Toray_App
+namespace OperatingPage
 {
     public partial class Form1 : Form
     {
