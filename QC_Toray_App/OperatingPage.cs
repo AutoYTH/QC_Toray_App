@@ -32,28 +32,14 @@ namespace QC_Toray_App
 
         private void lblOperation_MouseHover(object sender, EventArgs e)
         {
-            lblOperation.Text = "Hover Now!";
-            //lblOperation.ForeColor = Color.BlueViolet;
         }
 
         private void lblOperation_MouseLeave(object sender, EventArgs e)
         {
-            lblOperation.Text = "Operation";
         }
 
         private void lblSizePass_Click(object sender, EventArgs e)
         {
-            lblSizePass.BackColor = SystemColors.ActiveCaption;
-            lblSizeFail.BackColor = SystemColors.ButtonHighlight;
-        }
-
-        private void lblSizePass_MouseHover(object sender, EventArgs e)
-        {
-            //if (lblSizePass.BackColor != SystemColors.ActiveCaption)
-            //{
-            //    lblSizePass.BackColor = SystemColors.Control;
-            //}
-            ////lblSizePass.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void lblSizePass_MouseLeave(object sender, EventArgs e)
@@ -70,6 +56,9 @@ namespace QC_Toray_App
             lblSizeFail.BackColor = SystemColors.ActiveCaption;
         }
 
-        
+        private void pnlOperation_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
