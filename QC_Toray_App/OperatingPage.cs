@@ -16,12 +16,15 @@ namespace QC_Toray_App
 {
     public partial class OperatingPage : Form
     {
+        // Declare a list to store label instances
+        List<Label> recordLabels = new List<Label>();
         public OperatingPage()
         {
             InitializeComponent();
 
-            // Use the existing DataGridView instance (pnlReport1)
+            // Use the existing DataGridView instance (Panel Report)
             SetupDataGridView(dgvReport1);
+            SetupDataGridView(dgvReport2);
 
             // Generate test data and bind it to dgvReport1
             DataTable table1 = GenerateTestDataReport1();
@@ -37,6 +40,61 @@ namespace QC_Toray_App
 
             // First Page be Operation
             pnlOperation.BringToFront();
+
+            // Create and add labels dynamically
+            recordLabels = CreateListLabel();
+            // Assign the click event
+            for (int i = 0; i < recordLabels.Count; i++) {
+                recordLabels[i].Click += RecordLabel_Click;
+            }
+
+        }
+
+        private List<Label> CreateListLabel()
+        {
+            // Crete Label List
+            List<Label> list = new List<Label>();
+            list.Add(lblRecSizeFail);
+            list.Add(lblRecMisscut1);
+            list.Add(lblRecMisscut2);
+            list.Add(lblRecMisscut3);
+            list.Add(lblRecLink1);
+            list.Add(lblRecLink2);
+            list.Add(lblRecLink3);
+            list.Add(lblRecLink4);
+            list.Add(lblRecDefect);
+            list.Add(lblRecGF1);
+            list.Add(lblRecGF2);
+            list.Add(lblRecGF3);
+            list.Add(lblRecMeyani);
+            list.Add(lblRecFM);
+            list.Add(lblRecBlackSpot1);
+            list.Add(lblRecBlackSpot2);
+            list.Add(lblRecBlackSpot3);
+            list.Add(lblRecBlackSpot4);
+            list.Add(lblRecCA);
+            list.Add(lblRecMacaloni1);
+            list.Add(lblRecMacaloni2);
+            list.Add(lblRecMacaloni3);
+            list.Add(lblRecMacaloni4);
+
+            return list; 
+        }
+
+        private void RecordLabel_Click(object sender, EventArgs e) {
+            if (sender is Label label) {
+                // Toggle between "Pass" and "Fail" states
+                if (label.Text == "Pass")
+                {
+                    label.Text = "Fail";
+                    label.BackColor = Color.FromArgb(255, 192, 192); // red
+                }
+                else
+                {
+                    label.Text = "Pass";
+                    label.BackColor = Color.FromArgb(192, 255, 192); // greem
+                }
+            }
         }
 
         private void SetupDataGridView(DataGridView dataGridView)
@@ -187,6 +245,21 @@ namespace QC_Toray_App
             //lblReport.Font = new Font(lblReport.Font, FontStyle.Bold);
             lblReport.ForeColor = SystemColors.MenuHighlight;
         }
+
+        private void lblReport2_Click(object sender, EventArgs e)
+        {
+            pnlReport2.BringToFront();
+        }
+        private void lblReport2_MouseHover(object sender, EventArgs e)
+        {
+            //lblReport.Font = new Font(lblReport.Font, FontStyle.Underline | FontStyle.Bold);
+            lblReport2.ForeColor = Color.MediumPurple;
+        }
+        private void lblReport2_MouseLeave(object sender, EventArgs e)
+        {
+            //lblReport.Font = new Font(lblReport.Font, FontStyle.Bold);
+            lblReport2.ForeColor = SystemColors.MenuHighlight;
+        }
         private void lblSizePass_Click(object sender, EventArgs e)
         {
         }
@@ -202,7 +275,7 @@ namespace QC_Toray_App
         private void lblSizeFail_Click(object sender, EventArgs e)
         {
             lblSizePass.BackColor = SystemColors.ButtonHighlight;
-            lblSizeFail.BackColor = SystemColors.ActiveCaption;
+            lblRecSizeFail.BackColor = SystemColors.ActiveCaption;
         }
 
         private void pnlOperation_Paint(object sender, PaintEventArgs e)

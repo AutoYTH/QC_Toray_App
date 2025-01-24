@@ -32,51 +32,51 @@
             pnlOperation = new Panel();
             label37 = new Label();
             label34 = new Label();
-            label35 = new Label();
+            lblRecGF3 = new Label();
             label36 = new Label();
             label31 = new Label();
-            label32 = new Label();
+            lblRecGF2 = new Label();
             label33 = new Label();
             label28 = new Label();
-            label29 = new Label();
+            lblRecGF1 = new Label();
             label30 = new Label();
             label68 = new Label();
             label65 = new Label();
             label27 = new Label();
             label64 = new Label();
             label21 = new Label();
-            label63 = new Label();
-            label22 = new Label();
+            lblRecMacaloni2 = new Label();
+            lblRecLink4 = new Label();
             label62 = new Label();
             label23 = new Label();
             label61 = new Label();
             label26 = new Label();
-            label60 = new Label();
-            label25 = new Label();
+            lblRecMacaloni1 = new Label();
+            lblRecLink3 = new Label();
             label59 = new Label();
             label18 = new Label();
             label58 = new Label();
             label24 = new Label();
-            label57 = new Label();
-            label19 = new Label();
+            lblRecCA = new Label();
+            lblRecLink2 = new Label();
             label56 = new Label();
             label20 = new Label();
             label55 = new Label();
             label15 = new Label();
-            label54 = new Label();
-            label16 = new Label();
+            lblRecBlackSpot4 = new Label();
+            lblRecLink1 = new Label();
             label53 = new Label();
             label17 = new Label();
             label52 = new Label();
             label12 = new Label();
-            label51 = new Label();
-            label13 = new Label();
+            lblRecBlackSpot3 = new Label();
+            lblRecMisscut3 = new Label();
             label50 = new Label();
             label14 = new Label();
             label49 = new Label();
             label9 = new Label();
-            label48 = new Label();
-            label10 = new Label();
+            lblRecBlackSpot2 = new Label();
+            lblRecMisscut2 = new Label();
             label47 = new Label();
             label11 = new Label();
             txbRemark = new TextBox();
@@ -87,18 +87,18 @@
             label38 = new Label();
             lblLinkage3 = new Label();
             lblNG = new Label();
-            label67 = new Label();
-            label4 = new Label();
-            label46 = new Label();
-            label2 = new Label();
+            lblRecMacaloni4 = new Label();
+            lblRecMeyani = new Label();
+            lblRecMacaloni3 = new Label();
+            lblRecDefect = new Label();
             label45 = new Label();
             label8 = new Label();
-            label44 = new Label();
-            label7 = new Label();
+            lblRecBlackSpot1 = new Label();
+            lblRecMisscut1 = new Label();
             label43 = new Label();
-            label42 = new Label();
+            lblRecFM = new Label();
             label5 = new Label();
-            lblSizeFail = new Label();
+            lblRecSizeFail = new Label();
             lblMacaloni2 = new Label();
             lblBlackSpot2 = new Label();
             lblLinkage2 = new Label();
@@ -148,25 +148,34 @@
             lblLinkage = new Label();
             lblGF = new Label();
             lblMisscut = new Label();
+            label74 = new Label();
+            label73 = new Label();
+            label71 = new Label();
+            label72 = new Label();
+            label70 = new Label();
+            label69 = new Label();
             lblPalletSize = new Label();
             lblMcNo = new Label();
             lblLabel = new Label();
             lblDate = new Label();
             lblNo = new Label();
             pnlReport = new Panel();
-            btnPDFReport2 = new Button();
             btnPDFReport1 = new Button();
-            txbSearchReport2 = new TextBox();
             txbSearchReport1 = new TextBox();
-            dgvReport2 = new DataGridView();
             dgvReport1 = new DataGridView();
             lblOperation = new Label();
             lblReport = new Label();
             lblLogout = new Label();
+            lblReport2 = new Label();
+            pnlReport2 = new Panel();
+            btnPDFReport2 = new Button();
+            txbSearchReport2 = new TextBox();
+            dgvReport2 = new DataGridView();
             pnlOperation.SuspendLayout();
             pnlReport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvReport2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvReport1).BeginInit();
+            pnlReport2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReport2).BeginInit();
             SuspendLayout();
             // 
             // kryptonBorderEdge1
@@ -187,51 +196,51 @@
             // 
             pnlOperation.Controls.Add(label37);
             pnlOperation.Controls.Add(label34);
-            pnlOperation.Controls.Add(label35);
+            pnlOperation.Controls.Add(lblRecGF3);
             pnlOperation.Controls.Add(label36);
             pnlOperation.Controls.Add(label31);
-            pnlOperation.Controls.Add(label32);
+            pnlOperation.Controls.Add(lblRecGF2);
             pnlOperation.Controls.Add(label33);
             pnlOperation.Controls.Add(label28);
-            pnlOperation.Controls.Add(label29);
+            pnlOperation.Controls.Add(lblRecGF1);
             pnlOperation.Controls.Add(label30);
             pnlOperation.Controls.Add(label68);
             pnlOperation.Controls.Add(label65);
             pnlOperation.Controls.Add(label27);
             pnlOperation.Controls.Add(label64);
             pnlOperation.Controls.Add(label21);
-            pnlOperation.Controls.Add(label63);
-            pnlOperation.Controls.Add(label22);
+            pnlOperation.Controls.Add(lblRecMacaloni2);
+            pnlOperation.Controls.Add(lblRecLink4);
             pnlOperation.Controls.Add(label62);
             pnlOperation.Controls.Add(label23);
             pnlOperation.Controls.Add(label61);
             pnlOperation.Controls.Add(label26);
-            pnlOperation.Controls.Add(label60);
-            pnlOperation.Controls.Add(label25);
+            pnlOperation.Controls.Add(lblRecMacaloni1);
+            pnlOperation.Controls.Add(lblRecLink3);
             pnlOperation.Controls.Add(label59);
             pnlOperation.Controls.Add(label18);
             pnlOperation.Controls.Add(label58);
             pnlOperation.Controls.Add(label24);
-            pnlOperation.Controls.Add(label57);
-            pnlOperation.Controls.Add(label19);
+            pnlOperation.Controls.Add(lblRecCA);
+            pnlOperation.Controls.Add(lblRecLink2);
             pnlOperation.Controls.Add(label56);
             pnlOperation.Controls.Add(label20);
             pnlOperation.Controls.Add(label55);
             pnlOperation.Controls.Add(label15);
-            pnlOperation.Controls.Add(label54);
-            pnlOperation.Controls.Add(label16);
+            pnlOperation.Controls.Add(lblRecBlackSpot4);
+            pnlOperation.Controls.Add(lblRecLink1);
             pnlOperation.Controls.Add(label53);
             pnlOperation.Controls.Add(label17);
             pnlOperation.Controls.Add(label52);
             pnlOperation.Controls.Add(label12);
-            pnlOperation.Controls.Add(label51);
-            pnlOperation.Controls.Add(label13);
+            pnlOperation.Controls.Add(lblRecBlackSpot3);
+            pnlOperation.Controls.Add(lblRecMisscut3);
             pnlOperation.Controls.Add(label50);
             pnlOperation.Controls.Add(label14);
             pnlOperation.Controls.Add(label49);
             pnlOperation.Controls.Add(label9);
-            pnlOperation.Controls.Add(label48);
-            pnlOperation.Controls.Add(label10);
+            pnlOperation.Controls.Add(lblRecBlackSpot2);
+            pnlOperation.Controls.Add(lblRecMisscut2);
             pnlOperation.Controls.Add(label47);
             pnlOperation.Controls.Add(label11);
             pnlOperation.Controls.Add(txbRemark);
@@ -242,18 +251,18 @@
             pnlOperation.Controls.Add(label38);
             pnlOperation.Controls.Add(lblLinkage3);
             pnlOperation.Controls.Add(lblNG);
-            pnlOperation.Controls.Add(label67);
-            pnlOperation.Controls.Add(label4);
-            pnlOperation.Controls.Add(label46);
-            pnlOperation.Controls.Add(label2);
+            pnlOperation.Controls.Add(lblRecMacaloni4);
+            pnlOperation.Controls.Add(lblRecMeyani);
+            pnlOperation.Controls.Add(lblRecMacaloni3);
+            pnlOperation.Controls.Add(lblRecDefect);
             pnlOperation.Controls.Add(label45);
             pnlOperation.Controls.Add(label8);
-            pnlOperation.Controls.Add(label44);
-            pnlOperation.Controls.Add(label7);
+            pnlOperation.Controls.Add(lblRecBlackSpot1);
+            pnlOperation.Controls.Add(lblRecMisscut1);
             pnlOperation.Controls.Add(label43);
-            pnlOperation.Controls.Add(label42);
+            pnlOperation.Controls.Add(lblRecFM);
             pnlOperation.Controls.Add(label5);
-            pnlOperation.Controls.Add(lblSizeFail);
+            pnlOperation.Controls.Add(lblRecSizeFail);
             pnlOperation.Controls.Add(lblMacaloni2);
             pnlOperation.Controls.Add(lblBlackSpot2);
             pnlOperation.Controls.Add(lblLinkage2);
@@ -303,6 +312,12 @@
             pnlOperation.Controls.Add(lblLinkage);
             pnlOperation.Controls.Add(lblGF);
             pnlOperation.Controls.Add(lblMisscut);
+            pnlOperation.Controls.Add(label74);
+            pnlOperation.Controls.Add(label73);
+            pnlOperation.Controls.Add(label71);
+            pnlOperation.Controls.Add(label72);
+            pnlOperation.Controls.Add(label70);
+            pnlOperation.Controls.Add(label69);
             pnlOperation.Controls.Add(lblPalletSize);
             pnlOperation.Controls.Add(lblMcNo);
             pnlOperation.Controls.Add(lblLabel);
@@ -323,7 +338,7 @@
             label37.Name = "label37";
             label37.Size = new Size(90, 20);
             label37.TabIndex = 59;
-            label37.Text = "Fail";
+            label37.Text = "0";
             label37.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label34
@@ -335,23 +350,25 @@
             label34.Name = "label34";
             label34.Size = new Size(90, 20);
             label34.TabIndex = 59;
-            label34.Text = "Fail";
+            label34.Text = "0";
             label34.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label35
+            // lblRecGF3
             // 
-            label35.BorderStyle = BorderStyle.FixedSingle;
-            label35.Font = new Font("Segoe UI", 9F);
-            label35.Location = new Point(542, 727);
-            label35.Margin = new Padding(0);
-            label35.Name = "label35";
-            label35.Size = new Size(90, 20);
-            label35.TabIndex = 57;
-            label35.Text = "Fail";
-            label35.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecGF3.BorderStyle = BorderStyle.FixedSingle;
+            lblRecGF3.Cursor = Cursors.Hand;
+            lblRecGF3.Font = new Font("Segoe UI", 9F);
+            lblRecGF3.Location = new Point(542, 727);
+            lblRecGF3.Margin = new Padding(0);
+            lblRecGF3.Name = "lblRecGF3";
+            lblRecGF3.Size = new Size(90, 20);
+            lblRecGF3.TabIndex = 57;
+            lblRecGF3.Text = "Fail";
+            lblRecGF3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label36
             // 
+            label36.BackColor = Color.FromArgb(192, 255, 192);
             label36.BorderStyle = BorderStyle.FixedSingle;
             label36.Font = new Font("Segoe UI", 9F);
             label36.Location = new Point(453, 727);
@@ -371,23 +388,25 @@
             label31.Name = "label31";
             label31.Size = new Size(90, 20);
             label31.TabIndex = 56;
-            label31.Text = "Fail";
+            label31.Text = "0";
             label31.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label32
+            // lblRecGF2
             // 
-            label32.BorderStyle = BorderStyle.FixedSingle;
-            label32.Font = new Font("Segoe UI", 9F);
-            label32.Location = new Point(542, 687);
-            label32.Margin = new Padding(0);
-            label32.Name = "label32";
-            label32.Size = new Size(90, 20);
-            label32.TabIndex = 54;
-            label32.Text = "Fail";
-            label32.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecGF2.BorderStyle = BorderStyle.FixedSingle;
+            lblRecGF2.Cursor = Cursors.Hand;
+            lblRecGF2.Font = new Font("Segoe UI", 9F);
+            lblRecGF2.Location = new Point(542, 687);
+            lblRecGF2.Margin = new Padding(0);
+            lblRecGF2.Name = "lblRecGF2";
+            lblRecGF2.Size = new Size(90, 20);
+            lblRecGF2.TabIndex = 54;
+            lblRecGF2.Text = "Fail";
+            lblRecGF2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label33
             // 
+            label33.BackColor = Color.FromArgb(192, 255, 192);
             label33.BorderStyle = BorderStyle.FixedSingle;
             label33.Font = new Font("Segoe UI", 9F);
             label33.Location = new Point(453, 687);
@@ -407,23 +426,25 @@
             label28.Name = "label28";
             label28.Size = new Size(90, 20);
             label28.TabIndex = 53;
-            label28.Text = "Fail";
+            label28.Text = "0";
             label28.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label29
+            // lblRecGF1
             // 
-            label29.BorderStyle = BorderStyle.FixedSingle;
-            label29.Font = new Font("Segoe UI", 9F);
-            label29.Location = new Point(542, 647);
-            label29.Margin = new Padding(0);
-            label29.Name = "label29";
-            label29.Size = new Size(90, 20);
-            label29.TabIndex = 51;
-            label29.Text = "Fail";
-            label29.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecGF1.BorderStyle = BorderStyle.FixedSingle;
+            lblRecGF1.Cursor = Cursors.Hand;
+            lblRecGF1.Font = new Font("Segoe UI", 9F);
+            lblRecGF1.Location = new Point(542, 647);
+            lblRecGF1.Margin = new Padding(0);
+            lblRecGF1.Name = "lblRecGF1";
+            lblRecGF1.Size = new Size(90, 20);
+            lblRecGF1.TabIndex = 51;
+            lblRecGF1.Text = "Fail";
+            lblRecGF1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label30
             // 
+            label30.BackColor = Color.FromArgb(192, 255, 192);
             label30.BorderStyle = BorderStyle.FixedSingle;
             label30.Font = new Font("Segoe UI", 9F);
             label30.Location = new Point(453, 647);
@@ -443,7 +464,7 @@
             label68.Name = "label68";
             label68.Size = new Size(90, 20);
             label68.TabIndex = 48;
-            label68.Text = "Fail";
+            label68.Text = "0";
             label68.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label65
@@ -455,7 +476,7 @@
             label65.Name = "label65";
             label65.Size = new Size(90, 20);
             label65.TabIndex = 48;
-            label65.Text = "Fail";
+            label65.Text = "0";
             label65.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label27
@@ -467,7 +488,7 @@
             label27.Name = "label27";
             label27.Size = new Size(90, 20);
             label27.TabIndex = 48;
-            label27.Text = "Fail";
+            label27.Text = "0";
             label27.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label64
@@ -479,7 +500,7 @@
             label64.Name = "label64";
             label64.Size = new Size(90, 20);
             label64.TabIndex = 48;
-            label64.Text = "Fail";
+            label64.Text = "0";
             label64.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label21
@@ -491,35 +512,38 @@
             label21.Name = "label21";
             label21.Size = new Size(90, 20);
             label21.TabIndex = 48;
-            label21.Text = "Fail";
+            label21.Text = "0";
             label21.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label63
+            // lblRecMacaloni2
             // 
-            label63.BorderStyle = BorderStyle.FixedSingle;
-            label63.Font = new Font("Segoe UI", 9F);
-            label63.Location = new Point(1300, 565);
-            label63.Margin = new Padding(0);
-            label63.Name = "label63";
-            label63.Size = new Size(90, 20);
-            label63.TabIndex = 49;
-            label63.Text = "Fail";
-            label63.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMacaloni2.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMacaloni2.Cursor = Cursors.Hand;
+            lblRecMacaloni2.Font = new Font("Segoe UI", 9F);
+            lblRecMacaloni2.Location = new Point(1300, 565);
+            lblRecMacaloni2.Margin = new Padding(0);
+            lblRecMacaloni2.Name = "lblRecMacaloni2";
+            lblRecMacaloni2.Size = new Size(90, 20);
+            lblRecMacaloni2.TabIndex = 49;
+            lblRecMacaloni2.Text = "Fail";
+            lblRecMacaloni2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label22
+            // lblRecLink4
             // 
-            label22.BorderStyle = BorderStyle.FixedSingle;
-            label22.Font = new Font("Segoe UI", 9F);
-            label22.Location = new Point(542, 565);
-            label22.Margin = new Padding(0);
-            label22.Name = "label22";
-            label22.Size = new Size(90, 20);
-            label22.TabIndex = 49;
-            label22.Text = "Fail";
-            label22.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecLink4.BorderStyle = BorderStyle.FixedSingle;
+            lblRecLink4.Cursor = Cursors.Hand;
+            lblRecLink4.Font = new Font("Segoe UI", 9F);
+            lblRecLink4.Location = new Point(542, 565);
+            lblRecLink4.Margin = new Padding(0);
+            lblRecLink4.Name = "lblRecLink4";
+            lblRecLink4.Size = new Size(90, 20);
+            lblRecLink4.TabIndex = 49;
+            lblRecLink4.Text = "Fail";
+            lblRecLink4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label62
             // 
+            label62.BackColor = Color.FromArgb(192, 255, 192);
             label62.BorderStyle = BorderStyle.FixedSingle;
             label62.Font = new Font("Segoe UI", 9F);
             label62.Location = new Point(1211, 565);
@@ -532,6 +556,7 @@
             // 
             // label23
             // 
+            label23.BackColor = Color.FromArgb(192, 255, 192);
             label23.BorderStyle = BorderStyle.FixedSingle;
             label23.Font = new Font("Segoe UI", 9F);
             label23.Location = new Point(453, 565);
@@ -551,7 +576,7 @@
             label61.Name = "label61";
             label61.Size = new Size(90, 20);
             label61.TabIndex = 45;
-            label61.Text = "Fail";
+            label61.Text = "0";
             label61.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label26
@@ -563,32 +588,34 @@
             label26.Name = "label26";
             label26.Size = new Size(90, 20);
             label26.TabIndex = 45;
-            label26.Text = "Fail";
+            label26.Text = "0";
             label26.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label60
+            // lblRecMacaloni1
             // 
-            label60.BorderStyle = BorderStyle.FixedSingle;
-            label60.Font = new Font("Segoe UI", 9F);
-            label60.Location = new Point(1300, 527);
-            label60.Margin = new Padding(0);
-            label60.Name = "label60";
-            label60.Size = new Size(90, 20);
-            label60.TabIndex = 46;
-            label60.Text = "Fail";
-            label60.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMacaloni1.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMacaloni1.Cursor = Cursors.Hand;
+            lblRecMacaloni1.Font = new Font("Segoe UI", 9F);
+            lblRecMacaloni1.Location = new Point(1300, 527);
+            lblRecMacaloni1.Margin = new Padding(0);
+            lblRecMacaloni1.Name = "lblRecMacaloni1";
+            lblRecMacaloni1.Size = new Size(90, 20);
+            lblRecMacaloni1.TabIndex = 46;
+            lblRecMacaloni1.Text = "Fail";
+            lblRecMacaloni1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label25
+            // lblRecLink3
             // 
-            label25.BorderStyle = BorderStyle.FixedSingle;
-            label25.Font = new Font("Segoe UI", 9F);
-            label25.Location = new Point(542, 527);
-            label25.Margin = new Padding(0);
-            label25.Name = "label25";
-            label25.Size = new Size(90, 20);
-            label25.TabIndex = 46;
-            label25.Text = "Fail";
-            label25.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecLink3.BorderStyle = BorderStyle.FixedSingle;
+            lblRecLink3.Cursor = Cursors.Hand;
+            lblRecLink3.Font = new Font("Segoe UI", 9F);
+            lblRecLink3.Location = new Point(542, 527);
+            lblRecLink3.Margin = new Padding(0);
+            lblRecLink3.Name = "lblRecLink3";
+            lblRecLink3.Size = new Size(90, 20);
+            lblRecLink3.TabIndex = 46;
+            lblRecLink3.Text = "Fail";
+            lblRecLink3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label59
             // 
@@ -599,7 +626,7 @@
             label59.Name = "label59";
             label59.Size = new Size(90, 20);
             label59.TabIndex = 45;
-            label59.Text = "Fail";
+            label59.Text = "0";
             label59.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label18
@@ -611,11 +638,12 @@
             label18.Name = "label18";
             label18.Size = new Size(90, 20);
             label18.TabIndex = 45;
-            label18.Text = "Fail";
+            label18.Text = "0";
             label18.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label58
             // 
+            label58.BackColor = Color.FromArgb(192, 255, 192);
             label58.BorderStyle = BorderStyle.FixedSingle;
             label58.Font = new Font("Segoe UI", 9F);
             label58.Location = new Point(1211, 527);
@@ -628,6 +656,7 @@
             // 
             // label24
             // 
+            label24.BackColor = Color.FromArgb(192, 255, 192);
             label24.BorderStyle = BorderStyle.FixedSingle;
             label24.Font = new Font("Segoe UI", 9F);
             label24.Location = new Point(453, 527);
@@ -638,32 +667,35 @@
             label24.Text = "Pass";
             label24.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label57
+            // lblRecCA
             // 
-            label57.BorderStyle = BorderStyle.FixedSingle;
-            label57.Font = new Font("Segoe UI", 9F);
-            label57.Location = new Point(1300, 487);
-            label57.Margin = new Padding(0);
-            label57.Name = "label57";
-            label57.Size = new Size(90, 20);
-            label57.TabIndex = 46;
-            label57.Text = "Fail";
-            label57.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecCA.BorderStyle = BorderStyle.FixedSingle;
+            lblRecCA.Cursor = Cursors.Hand;
+            lblRecCA.Font = new Font("Segoe UI", 9F);
+            lblRecCA.Location = new Point(1300, 487);
+            lblRecCA.Margin = new Padding(0);
+            lblRecCA.Name = "lblRecCA";
+            lblRecCA.Size = new Size(90, 20);
+            lblRecCA.TabIndex = 46;
+            lblRecCA.Text = "Fail";
+            lblRecCA.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // lblRecLink2
             // 
-            label19.BorderStyle = BorderStyle.FixedSingle;
-            label19.Font = new Font("Segoe UI", 9F);
-            label19.Location = new Point(542, 487);
-            label19.Margin = new Padding(0);
-            label19.Name = "label19";
-            label19.Size = new Size(90, 20);
-            label19.TabIndex = 46;
-            label19.Text = "Fail";
-            label19.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecLink2.BorderStyle = BorderStyle.FixedSingle;
+            lblRecLink2.Cursor = Cursors.Hand;
+            lblRecLink2.Font = new Font("Segoe UI", 9F);
+            lblRecLink2.Location = new Point(542, 487);
+            lblRecLink2.Margin = new Padding(0);
+            lblRecLink2.Name = "lblRecLink2";
+            lblRecLink2.Size = new Size(90, 20);
+            lblRecLink2.TabIndex = 46;
+            lblRecLink2.Text = "Fail";
+            lblRecLink2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label56
             // 
+            label56.BackColor = Color.FromArgb(192, 255, 192);
             label56.BorderStyle = BorderStyle.FixedSingle;
             label56.Font = new Font("Segoe UI", 9F);
             label56.Location = new Point(1211, 487);
@@ -676,6 +708,7 @@
             // 
             // label20
             // 
+            label20.BackColor = Color.FromArgb(192, 255, 192);
             label20.BorderStyle = BorderStyle.FixedSingle;
             label20.Font = new Font("Segoe UI", 9F);
             label20.Location = new Point(453, 487);
@@ -695,7 +728,7 @@
             label55.Name = "label55";
             label55.Size = new Size(90, 20);
             label55.TabIndex = 42;
-            label55.Text = "Fail";
+            label55.Text = "0";
             label55.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label15
@@ -707,35 +740,38 @@
             label15.Name = "label15";
             label15.Size = new Size(90, 20);
             label15.TabIndex = 42;
-            label15.Text = "Fail";
+            label15.Text = "0";
             label15.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label54
+            // lblRecBlackSpot4
             // 
-            label54.BorderStyle = BorderStyle.FixedSingle;
-            label54.Font = new Font("Segoe UI", 9F);
-            label54.Location = new Point(1300, 443);
-            label54.Margin = new Padding(0);
-            label54.Name = "label54";
-            label54.Size = new Size(90, 20);
-            label54.TabIndex = 43;
-            label54.Text = "Fail";
-            label54.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecBlackSpot4.BorderStyle = BorderStyle.FixedSingle;
+            lblRecBlackSpot4.Cursor = Cursors.Hand;
+            lblRecBlackSpot4.Font = new Font("Segoe UI", 9F);
+            lblRecBlackSpot4.Location = new Point(1300, 443);
+            lblRecBlackSpot4.Margin = new Padding(0);
+            lblRecBlackSpot4.Name = "lblRecBlackSpot4";
+            lblRecBlackSpot4.Size = new Size(90, 20);
+            lblRecBlackSpot4.TabIndex = 43;
+            lblRecBlackSpot4.Text = "Fail";
+            lblRecBlackSpot4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // lblRecLink1
             // 
-            label16.BorderStyle = BorderStyle.FixedSingle;
-            label16.Font = new Font("Segoe UI", 9F);
-            label16.Location = new Point(542, 443);
-            label16.Margin = new Padding(0);
-            label16.Name = "label16";
-            label16.Size = new Size(90, 20);
-            label16.TabIndex = 43;
-            label16.Text = "Fail";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecLink1.BorderStyle = BorderStyle.FixedSingle;
+            lblRecLink1.Cursor = Cursors.Hand;
+            lblRecLink1.Font = new Font("Segoe UI", 9F);
+            lblRecLink1.Location = new Point(542, 443);
+            lblRecLink1.Margin = new Padding(0);
+            lblRecLink1.Name = "lblRecLink1";
+            lblRecLink1.Size = new Size(90, 20);
+            lblRecLink1.TabIndex = 43;
+            lblRecLink1.Text = "Fail";
+            lblRecLink1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label53
             // 
+            label53.BackColor = Color.FromArgb(192, 255, 192);
             label53.BorderStyle = BorderStyle.FixedSingle;
             label53.Font = new Font("Segoe UI", 9F);
             label53.Location = new Point(1211, 443);
@@ -748,6 +784,7 @@
             // 
             // label17
             // 
+            label17.BackColor = Color.FromArgb(192, 255, 192);
             label17.BorderStyle = BorderStyle.FixedSingle;
             label17.Font = new Font("Segoe UI", 9F);
             label17.Location = new Point(453, 443);
@@ -767,7 +804,7 @@
             label52.Name = "label52";
             label52.Size = new Size(90, 20);
             label52.TabIndex = 39;
-            label52.Text = "Fail";
+            label52.Text = "0";
             label52.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -779,35 +816,38 @@
             label12.Name = "label12";
             label12.Size = new Size(90, 20);
             label12.TabIndex = 39;
-            label12.Text = "Fail";
+            label12.Text = "0";
             label12.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label51
+            // lblRecBlackSpot3
             // 
-            label51.BorderStyle = BorderStyle.FixedSingle;
-            label51.Font = new Font("Segoe UI", 9F);
-            label51.Location = new Point(1300, 407);
-            label51.Margin = new Padding(0);
-            label51.Name = "label51";
-            label51.Size = new Size(90, 20);
-            label51.TabIndex = 40;
-            label51.Text = "Fail";
-            label51.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecBlackSpot3.BorderStyle = BorderStyle.FixedSingle;
+            lblRecBlackSpot3.Cursor = Cursors.Hand;
+            lblRecBlackSpot3.Font = new Font("Segoe UI", 9F);
+            lblRecBlackSpot3.Location = new Point(1300, 407);
+            lblRecBlackSpot3.Margin = new Padding(0);
+            lblRecBlackSpot3.Name = "lblRecBlackSpot3";
+            lblRecBlackSpot3.Size = new Size(90, 20);
+            lblRecBlackSpot3.TabIndex = 40;
+            lblRecBlackSpot3.Text = "Fail";
+            lblRecBlackSpot3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // lblRecMisscut3
             // 
-            label13.BorderStyle = BorderStyle.FixedSingle;
-            label13.Font = new Font("Segoe UI", 9F);
-            label13.Location = new Point(542, 407);
-            label13.Margin = new Padding(0);
-            label13.Name = "label13";
-            label13.Size = new Size(90, 20);
-            label13.TabIndex = 40;
-            label13.Text = "Fail";
-            label13.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMisscut3.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMisscut3.Cursor = Cursors.Hand;
+            lblRecMisscut3.Font = new Font("Segoe UI", 9F);
+            lblRecMisscut3.Location = new Point(542, 407);
+            lblRecMisscut3.Margin = new Padding(0);
+            lblRecMisscut3.Name = "lblRecMisscut3";
+            lblRecMisscut3.Size = new Size(90, 20);
+            lblRecMisscut3.TabIndex = 40;
+            lblRecMisscut3.Text = "Fail";
+            lblRecMisscut3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label50
             // 
+            label50.BackColor = Color.FromArgb(192, 255, 192);
             label50.BorderStyle = BorderStyle.FixedSingle;
             label50.Font = new Font("Segoe UI", 9F);
             label50.Location = new Point(1211, 407);
@@ -820,6 +860,7 @@
             // 
             // label14
             // 
+            label14.BackColor = Color.FromArgb(192, 255, 192);
             label14.BorderStyle = BorderStyle.FixedSingle;
             label14.Font = new Font("Segoe UI", 9F);
             label14.Location = new Point(453, 407);
@@ -839,7 +880,7 @@
             label49.Name = "label49";
             label49.Size = new Size(90, 20);
             label49.TabIndex = 36;
-            label49.Text = "Fail";
+            label49.Text = "0";
             label49.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label9
@@ -851,35 +892,38 @@
             label9.Name = "label9";
             label9.Size = new Size(90, 20);
             label9.TabIndex = 36;
-            label9.Text = "Fail";
+            label9.Text = "0";
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label48
+            // lblRecBlackSpot2
             // 
-            label48.BorderStyle = BorderStyle.FixedSingle;
-            label48.Font = new Font("Segoe UI", 9F);
-            label48.Location = new Point(1300, 367);
-            label48.Margin = new Padding(0);
-            label48.Name = "label48";
-            label48.Size = new Size(90, 20);
-            label48.TabIndex = 37;
-            label48.Text = "Fail";
-            label48.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecBlackSpot2.BorderStyle = BorderStyle.FixedSingle;
+            lblRecBlackSpot2.Cursor = Cursors.Hand;
+            lblRecBlackSpot2.Font = new Font("Segoe UI", 9F);
+            lblRecBlackSpot2.Location = new Point(1300, 367);
+            lblRecBlackSpot2.Margin = new Padding(0);
+            lblRecBlackSpot2.Name = "lblRecBlackSpot2";
+            lblRecBlackSpot2.Size = new Size(90, 20);
+            lblRecBlackSpot2.TabIndex = 37;
+            lblRecBlackSpot2.Text = "Fail";
+            lblRecBlackSpot2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // lblRecMisscut2
             // 
-            label10.BorderStyle = BorderStyle.FixedSingle;
-            label10.Font = new Font("Segoe UI", 9F);
-            label10.Location = new Point(542, 367);
-            label10.Margin = new Padding(0);
-            label10.Name = "label10";
-            label10.Size = new Size(90, 20);
-            label10.TabIndex = 37;
-            label10.Text = "Fail";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMisscut2.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMisscut2.Cursor = Cursors.Hand;
+            lblRecMisscut2.Font = new Font("Segoe UI", 9F);
+            lblRecMisscut2.Location = new Point(542, 367);
+            lblRecMisscut2.Margin = new Padding(0);
+            lblRecMisscut2.Name = "lblRecMisscut2";
+            lblRecMisscut2.Size = new Size(90, 20);
+            lblRecMisscut2.TabIndex = 37;
+            lblRecMisscut2.Text = "Fail";
+            lblRecMisscut2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label47
             // 
+            label47.BackColor = Color.FromArgb(192, 255, 192);
             label47.BorderStyle = BorderStyle.FixedSingle;
             label47.Font = new Font("Segoe UI", 9F);
             label47.Location = new Point(1211, 367);
@@ -892,6 +936,7 @@
             // 
             // label11
             // 
+            label11.BackColor = Color.FromArgb(192, 255, 192);
             label11.BorderStyle = BorderStyle.FixedSingle;
             label11.Font = new Font("Segoe UI", 9F);
             label11.Location = new Point(453, 367);
@@ -913,7 +958,7 @@
             // lblMacaloni4
             // 
             lblMacaloni4.Font = new Font("Segoe UI", 9F);
-            lblMacaloni4.Location = new Point(1097, 610);
+            lblMacaloni4.Location = new Point(1097, 650);
             lblMacaloni4.Margin = new Padding(0);
             lblMacaloni4.Name = "lblMacaloni4";
             lblMacaloni4.Size = new Size(50, 15);
@@ -947,7 +992,7 @@
             // lblMacaloni3
             // 
             lblMacaloni3.Font = new Font("Segoe UI", 9F);
-            lblMacaloni3.Location = new Point(1097, 570);
+            lblMacaloni3.Location = new Point(1097, 610);
             lblMacaloni3.Margin = new Padding(0);
             lblMacaloni3.Name = "lblMacaloni3";
             lblMacaloni3.Size = new Size(50, 15);
@@ -989,53 +1034,57 @@
             lblNG.Text = "NG";
             lblNG.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label67
+            // lblRecMacaloni4
             // 
-            label67.BorderStyle = BorderStyle.FixedSingle;
-            label67.Font = new Font("Segoe UI", 9F);
-            label67.Location = new Point(1300, 647);
-            label67.Margin = new Padding(0);
-            label67.Name = "label67";
-            label67.Size = new Size(90, 20);
-            label67.TabIndex = 20;
-            label67.Text = "Fail";
-            label67.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMacaloni4.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMacaloni4.Cursor = Cursors.Hand;
+            lblRecMacaloni4.Font = new Font("Segoe UI", 9F);
+            lblRecMacaloni4.Location = new Point(1300, 647);
+            lblRecMacaloni4.Margin = new Padding(0);
+            lblRecMacaloni4.Name = "lblRecMacaloni4";
+            lblRecMacaloni4.Size = new Size(90, 20);
+            lblRecMacaloni4.TabIndex = 20;
+            lblRecMacaloni4.Text = "Fail";
+            lblRecMacaloni4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // lblRecMeyani
             // 
-            label4.BorderStyle = BorderStyle.FixedSingle;
-            label4.Font = new Font("Segoe UI", 9F);
-            label4.Location = new Point(542, 767);
-            label4.Margin = new Padding(0);
-            label4.Name = "label4";
-            label4.Size = new Size(90, 20);
-            label4.TabIndex = 20;
-            label4.Text = "Fail";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMeyani.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMeyani.Cursor = Cursors.Hand;
+            lblRecMeyani.Font = new Font("Segoe UI", 9F);
+            lblRecMeyani.Location = new Point(542, 767);
+            lblRecMeyani.Margin = new Padding(0);
+            lblRecMeyani.Name = "lblRecMeyani";
+            lblRecMeyani.Size = new Size(90, 20);
+            lblRecMeyani.TabIndex = 20;
+            lblRecMeyani.Text = "Fail";
+            lblRecMeyani.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label46
+            // lblRecMacaloni3
             // 
-            label46.BorderStyle = BorderStyle.FixedSingle;
-            label46.Font = new Font("Segoe UI", 9F);
-            label46.Location = new Point(1300, 607);
-            label46.Margin = new Padding(0);
-            label46.Name = "label46";
-            label46.Size = new Size(90, 20);
-            label46.TabIndex = 20;
-            label46.Text = "Fail";
-            label46.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMacaloni3.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMacaloni3.Cursor = Cursors.Hand;
+            lblRecMacaloni3.Font = new Font("Segoe UI", 9F);
+            lblRecMacaloni3.Location = new Point(1300, 607);
+            lblRecMacaloni3.Margin = new Padding(0);
+            lblRecMacaloni3.Name = "lblRecMacaloni3";
+            lblRecMacaloni3.Size = new Size(90, 20);
+            lblRecMacaloni3.TabIndex = 20;
+            lblRecMacaloni3.Text = "Fail";
+            lblRecMacaloni3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // lblRecDefect
             // 
-            label2.BorderStyle = BorderStyle.FixedSingle;
-            label2.Font = new Font("Segoe UI", 9F);
-            label2.Location = new Point(542, 607);
-            label2.Margin = new Padding(0);
-            label2.Name = "label2";
-            label2.Size = new Size(90, 20);
-            label2.TabIndex = 20;
-            label2.Text = "Fail";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecDefect.BorderStyle = BorderStyle.FixedSingle;
+            lblRecDefect.Cursor = Cursors.Hand;
+            lblRecDefect.Font = new Font("Segoe UI", 9F);
+            lblRecDefect.Location = new Point(542, 607);
+            lblRecDefect.Margin = new Padding(0);
+            lblRecDefect.Name = "lblRecDefect";
+            lblRecDefect.Size = new Size(90, 20);
+            lblRecDefect.TabIndex = 20;
+            lblRecDefect.Text = "Fail";
+            lblRecDefect.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label45
             // 
@@ -1046,7 +1095,7 @@
             label45.Name = "label45";
             label45.Size = new Size(90, 20);
             label45.TabIndex = 20;
-            label45.Text = "Fail";
+            label45.Text = "0";
             label45.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
@@ -1058,32 +1107,34 @@
             label8.Name = "label8";
             label8.Size = new Size(90, 20);
             label8.TabIndex = 20;
-            label8.Text = "Fail";
+            label8.Text = "0";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label44
+            // lblRecBlackSpot1
             // 
-            label44.BorderStyle = BorderStyle.FixedSingle;
-            label44.Font = new Font("Segoe UI", 9F);
-            label44.Location = new Point(1300, 330);
-            label44.Margin = new Padding(0);
-            label44.Name = "label44";
-            label44.Size = new Size(90, 20);
-            label44.TabIndex = 20;
-            label44.Text = "Fail";
-            label44.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecBlackSpot1.BorderStyle = BorderStyle.FixedSingle;
+            lblRecBlackSpot1.Cursor = Cursors.Hand;
+            lblRecBlackSpot1.Font = new Font("Segoe UI", 9F);
+            lblRecBlackSpot1.Location = new Point(1300, 330);
+            lblRecBlackSpot1.Margin = new Padding(0);
+            lblRecBlackSpot1.Name = "lblRecBlackSpot1";
+            lblRecBlackSpot1.Size = new Size(90, 20);
+            lblRecBlackSpot1.TabIndex = 20;
+            lblRecBlackSpot1.Text = "Fail";
+            lblRecBlackSpot1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // lblRecMisscut1
             // 
-            label7.BorderStyle = BorderStyle.FixedSingle;
-            label7.Font = new Font("Segoe UI", 9F);
-            label7.Location = new Point(542, 330);
-            label7.Margin = new Padding(0);
-            label7.Name = "label7";
-            label7.Size = new Size(90, 20);
-            label7.TabIndex = 20;
-            label7.Text = "Fail";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecMisscut1.BorderStyle = BorderStyle.FixedSingle;
+            lblRecMisscut1.Cursor = Cursors.Hand;
+            lblRecMisscut1.Font = new Font("Segoe UI", 9F);
+            lblRecMisscut1.Location = new Point(542, 330);
+            lblRecMisscut1.Margin = new Padding(0);
+            lblRecMisscut1.Name = "lblRecMisscut1";
+            lblRecMisscut1.Size = new Size(90, 20);
+            lblRecMisscut1.TabIndex = 20;
+            lblRecMisscut1.Text = "Fail";
+            lblRecMisscut1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label43
             // 
@@ -1094,20 +1145,21 @@
             label43.Name = "label43";
             label43.Size = new Size(90, 20);
             label43.TabIndex = 20;
-            label43.Text = "Fail";
+            label43.Text = "0";
             label43.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label42
+            // lblRecFM
             // 
-            label42.BorderStyle = BorderStyle.FixedSingle;
-            label42.Font = new Font("Segoe UI", 9F);
-            label42.Location = new Point(1300, 287);
-            label42.Margin = new Padding(0);
-            label42.Name = "label42";
-            label42.Size = new Size(90, 20);
-            label42.TabIndex = 20;
-            label42.Text = "Fail";
-            label42.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecFM.BorderStyle = BorderStyle.FixedSingle;
+            lblRecFM.Cursor = Cursors.Hand;
+            lblRecFM.Font = new Font("Segoe UI", 9F);
+            lblRecFM.Location = new Point(1300, 287);
+            lblRecFM.Margin = new Padding(0);
+            lblRecFM.Name = "lblRecFM";
+            lblRecFM.Size = new Size(90, 20);
+            lblRecFM.TabIndex = 20;
+            lblRecFM.Text = "Fail";
+            lblRecFM.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -1118,25 +1170,26 @@
             label5.Name = "label5";
             label5.Size = new Size(90, 20);
             label5.TabIndex = 20;
-            label5.Text = "Fail";
+            label5.Text = "0";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // lblSizeFail
+            // lblRecSizeFail
             // 
-            lblSizeFail.BorderStyle = BorderStyle.FixedSingle;
-            lblSizeFail.Font = new Font("Segoe UI", 9F);
-            lblSizeFail.Location = new Point(542, 287);
-            lblSizeFail.Margin = new Padding(0);
-            lblSizeFail.Name = "lblSizeFail";
-            lblSizeFail.Size = new Size(90, 20);
-            lblSizeFail.TabIndex = 20;
-            lblSizeFail.Text = "Fail";
-            lblSizeFail.TextAlign = ContentAlignment.MiddleCenter;
+            lblRecSizeFail.BorderStyle = BorderStyle.FixedSingle;
+            lblRecSizeFail.Cursor = Cursors.Hand;
+            lblRecSizeFail.Font = new Font("Segoe UI", 9F);
+            lblRecSizeFail.Location = new Point(542, 287);
+            lblRecSizeFail.Margin = new Padding(0);
+            lblRecSizeFail.Name = "lblRecSizeFail";
+            lblRecSizeFail.Size = new Size(90, 20);
+            lblRecSizeFail.TabIndex = 20;
+            lblRecSizeFail.Text = "Fail";
+            lblRecSizeFail.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lblMacaloni2
             // 
             lblMacaloni2.Font = new Font("Segoe UI", 9F);
-            lblMacaloni2.Location = new Point(1097, 530);
+            lblMacaloni2.Location = new Point(1097, 570);
             lblMacaloni2.Margin = new Padding(0);
             lblMacaloni2.Name = "lblMacaloni2";
             lblMacaloni2.Size = new Size(50, 15);
@@ -1170,7 +1223,7 @@
             // lblMacaloni1
             // 
             lblMacaloni1.Font = new Font("Segoe UI", 9F);
-            lblMacaloni1.Location = new Point(1097, 490);
+            lblMacaloni1.Location = new Point(1097, 530);
             lblMacaloni1.Margin = new Padding(0);
             lblMacaloni1.Name = "lblMacaloni1";
             lblMacaloni1.Size = new Size(50, 15);
@@ -1260,6 +1313,7 @@
             // 
             // label66
             // 
+            label66.BackColor = Color.FromArgb(192, 255, 192);
             label66.BorderStyle = BorderStyle.FixedSingle;
             label66.Font = new Font("Segoe UI", 9F);
             label66.Location = new Point(1211, 647);
@@ -1272,6 +1326,7 @@
             // 
             // label3
             // 
+            label3.BackColor = Color.FromArgb(192, 255, 192);
             label3.BorderStyle = BorderStyle.FixedSingle;
             label3.Font = new Font("Segoe UI", 9F);
             label3.Location = new Point(453, 767);
@@ -1284,6 +1339,7 @@
             // 
             // label41
             // 
+            label41.BackColor = Color.FromArgb(192, 255, 192);
             label41.BorderStyle = BorderStyle.FixedSingle;
             label41.Font = new Font("Segoe UI", 9F);
             label41.Location = new Point(1211, 607);
@@ -1307,6 +1363,7 @@
             // 
             // label40
             // 
+            label40.BackColor = Color.FromArgb(192, 255, 192);
             label40.BorderStyle = BorderStyle.FixedSingle;
             label40.Font = new Font("Segoe UI", 9F);
             label40.Location = new Point(1211, 330);
@@ -1319,6 +1376,7 @@
             // 
             // label1
             // 
+            label1.BackColor = Color.FromArgb(192, 255, 192);
             label1.BorderStyle = BorderStyle.FixedSingle;
             label1.Font = new Font("Segoe UI", 9F);
             label1.Location = new Point(453, 607);
@@ -1331,6 +1389,7 @@
             // 
             // label6
             // 
+            label6.BackColor = Color.FromArgb(192, 255, 192);
             label6.BorderStyle = BorderStyle.FixedSingle;
             label6.Font = new Font("Segoe UI", 9F);
             label6.Location = new Point(453, 330);
@@ -1343,6 +1402,7 @@
             // 
             // label39
             // 
+            label39.BackColor = Color.FromArgb(192, 255, 192);
             label39.BorderStyle = BorderStyle.FixedSingle;
             label39.Font = new Font("Segoe UI", 9F);
             label39.Location = new Point(1211, 287);
@@ -1367,8 +1427,10 @@
             // 
             // lblSizePass
             // 
+            lblSizePass.BackColor = Color.FromArgb(192, 255, 192);
             lblSizePass.BorderStyle = BorderStyle.FixedSingle;
             lblSizePass.Font = new Font("Segoe UI", 9F);
+            lblSizePass.ForeColor = SystemColors.ControlText;
             lblSizePass.Location = new Point(453, 287);
             lblSizePass.Margin = new Padding(0);
             lblSizePass.Name = "lblSizePass";
@@ -1618,7 +1680,7 @@
             lblMacaloni.Anchor = AnchorStyles.Left;
             lblMacaloni.AutoSize = true;
             lblMacaloni.Font = new Font("Segoe UI", 9F);
-            lblMacaloni.Location = new Point(936, 650);
+            lblMacaloni.Location = new Point(936, 530);
             lblMacaloni.Name = "lblMacaloni";
             lblMacaloni.Size = new Size(56, 15);
             lblMacaloni.TabIndex = 0;
@@ -1690,6 +1752,78 @@
             lblMisscut.TabIndex = 0;
             lblMisscut.Text = "Misscut ogf Pallet";
             // 
+            // label74
+            // 
+            label74.Anchor = AnchorStyles.Left;
+            label74.AutoSize = true;
+            label74.Font = new Font("Segoe UI", 9F);
+            label74.Location = new Point(1418, 250);
+            label74.Name = "label74";
+            label74.Size = new Size(35, 15);
+            label74.TabIndex = 0;
+            label74.Text = "Value";
+            label74.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label73
+            // 
+            label73.Anchor = AnchorStyles.Left;
+            label73.AutoSize = true;
+            label73.Font = new Font("Segoe UI", 9F);
+            label73.Location = new Point(1324, 250);
+            label73.Name = "label73";
+            label73.Size = new Size(44, 15);
+            label73.TabIndex = 0;
+            label73.Text = "Record";
+            label73.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            label71.Anchor = AnchorStyles.Left;
+            label71.AutoSize = true;
+            label71.Font = new Font("Segoe UI", 9F);
+            label71.Location = new Point(660, 250);
+            label71.Name = "label71";
+            label71.Size = new Size(35, 15);
+            label71.TabIndex = 0;
+            label71.Text = "Value";
+            label71.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label72
+            // 
+            label72.Anchor = AnchorStyles.Left;
+            label72.AutoSize = true;
+            label72.Font = new Font("Segoe UI", 9F);
+            label72.Location = new Point(1229, 250);
+            label72.Name = "label72";
+            label72.Size = new Size(45, 15);
+            label72.TabIndex = 0;
+            label72.Text = "Default";
+            label72.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            label70.Anchor = AnchorStyles.Left;
+            label70.AutoSize = true;
+            label70.Font = new Font("Segoe UI", 9F);
+            label70.Location = new Point(566, 250);
+            label70.Name = "label70";
+            label70.Size = new Size(44, 15);
+            label70.TabIndex = 0;
+            label70.Text = "Record";
+            label70.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label69
+            // 
+            label69.Anchor = AnchorStyles.Left;
+            label69.AutoSize = true;
+            label69.Font = new Font("Segoe UI", 9F);
+            label69.Location = new Point(471, 250);
+            label69.Name = "label69";
+            label69.Size = new Size(45, 15);
+            label69.TabIndex = 0;
+            label69.Text = "Default";
+            label69.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // lblPalletSize
             // 
             lblPalletSize.Anchor = AnchorStyles.Left;
@@ -1739,26 +1873,13 @@
             // 
             // pnlReport
             // 
-            pnlReport.Controls.Add(btnPDFReport2);
             pnlReport.Controls.Add(btnPDFReport1);
-            pnlReport.Controls.Add(txbSearchReport2);
             pnlReport.Controls.Add(txbSearchReport1);
-            pnlReport.Controls.Add(dgvReport2);
             pnlReport.Controls.Add(dgvReport1);
             pnlReport.Location = new Point(204, 2);
             pnlReport.Name = "pnlReport";
             pnlReport.Size = new Size(1701, 860);
             pnlReport.TabIndex = 69;
-            // 
-            // btnPDFReport2
-            // 
-            btnPDFReport2.Location = new Point(910, 796);
-            btnPDFReport2.Name = "btnPDFReport2";
-            btnPDFReport2.Size = new Size(101, 35);
-            btnPDFReport2.TabIndex = 2;
-            btnPDFReport2.Text = "Export PDF";
-            btnPDFReport2.UseVisualStyleBackColor = true;
-            btnPDFReport2.Click += btnPDFReport2_Click;
             // 
             // btnPDFReport1
             // 
@@ -1770,14 +1891,6 @@
             btnPDFReport1.UseVisualStyleBackColor = true;
             btnPDFReport1.Click += btnPDFReport1_Click;
             // 
-            // txbSearchReport2
-            // 
-            txbSearchReport2.Location = new Point(910, 11);
-            txbSearchReport2.Name = "txbSearchReport2";
-            txbSearchReport2.PlaceholderText = "Search...";
-            txbSearchReport2.Size = new Size(243, 29);
-            txbSearchReport2.TabIndex = 1;
-            // 
             // txbSearchReport1
             // 
             txbSearchReport1.Location = new Point(65, 11);
@@ -1786,25 +1899,18 @@
             txbSearchReport1.Size = new Size(243, 29);
             txbSearchReport1.TabIndex = 1;
             // 
-            // dgvReport2
-            // 
-            dgvReport2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvReport2.Location = new Point(910, 54);
-            dgvReport2.Name = "dgvReport2";
-            dgvReport2.Size = new Size(700, 700);
-            dgvReport2.TabIndex = 0;
-            // 
             // dgvReport1
             // 
             dgvReport1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvReport1.Location = new Point(65, 54);
             dgvReport1.Name = "dgvReport1";
-            dgvReport1.Size = new Size(700, 700);
+            dgvReport1.Size = new Size(1575, 700);
             dgvReport1.TabIndex = 0;
             // 
             // lblOperation
             // 
             lblOperation.AutoSize = true;
+            lblOperation.Cursor = Cursors.Hand;
             lblOperation.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblOperation.ForeColor = SystemColors.MenuHighlight;
             lblOperation.Location = new Point(26, 35);
@@ -1819,13 +1925,14 @@
             // lblReport
             // 
             lblReport.AutoSize = true;
+            lblReport.Cursor = Cursors.Hand;
             lblReport.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblReport.ForeColor = SystemColors.MenuHighlight;
             lblReport.Location = new Point(26, 95);
             lblReport.Name = "lblReport";
-            lblReport.Size = new Size(106, 37);
+            lblReport.Size = new Size(129, 37);
             lblReport.TabIndex = 7;
-            lblReport.Text = "Report";
+            lblReport.Text = "Report 1";
             lblReport.Click += lblReport_Click;
             lblReport.MouseLeave += lblReport_MouseLeave;
             lblReport.MouseHover += lblReport_MouseHover;
@@ -1833,9 +1940,10 @@
             // lblLogout
             // 
             lblLogout.AutoSize = true;
+            lblLogout.Cursor = Cursors.Hand;
             lblLogout.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblLogout.ForeColor = SystemColors.MenuHighlight;
-            lblLogout.Location = new Point(26, 155);
+            lblLogout.Location = new Point(26, 215);
             lblLogout.Name = "lblLogout";
             lblLogout.Size = new Size(109, 37);
             lblLogout.TabIndex = 7;
@@ -1844,18 +1952,70 @@
             lblLogout.MouseLeave += lblLogout_MouseLeave;
             lblLogout.MouseHover += lblLogout_MouseHover;
             // 
+            // lblReport2
+            // 
+            lblReport2.AutoSize = true;
+            lblReport2.Cursor = Cursors.Hand;
+            lblReport2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblReport2.ForeColor = SystemColors.MenuHighlight;
+            lblReport2.Location = new Point(26, 155);
+            lblReport2.Name = "lblReport2";
+            lblReport2.Size = new Size(129, 37);
+            lblReport2.TabIndex = 7;
+            lblReport2.Text = "Report 2";
+            lblReport2.Click += lblReport2_Click;
+            lblReport2.MouseLeave += lblReport2_MouseLeave;
+            lblReport2.MouseHover += lblReport2_MouseHover;
+            // 
+            // pnlReport2
+            // 
+            pnlReport2.Controls.Add(btnPDFReport2);
+            pnlReport2.Controls.Add(txbSearchReport2);
+            pnlReport2.Controls.Add(dgvReport2);
+            pnlReport2.Location = new Point(204, 2);
+            pnlReport2.Name = "pnlReport2";
+            pnlReport2.Size = new Size(1701, 860);
+            pnlReport2.TabIndex = 70;
+            // 
+            // btnPDFReport2
+            // 
+            btnPDFReport2.Location = new Point(65, 796);
+            btnPDFReport2.Name = "btnPDFReport2";
+            btnPDFReport2.Size = new Size(101, 35);
+            btnPDFReport2.TabIndex = 5;
+            btnPDFReport2.Text = "Export PDF";
+            btnPDFReport2.UseVisualStyleBackColor = true;
+            // 
+            // txbSearchReport2
+            // 
+            txbSearchReport2.Location = new Point(65, 11);
+            txbSearchReport2.Name = "txbSearchReport2";
+            txbSearchReport2.PlaceholderText = "Search...";
+            txbSearchReport2.Size = new Size(243, 29);
+            txbSearchReport2.TabIndex = 4;
+            // 
+            // dgvReport2
+            // 
+            dgvReport2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvReport2.Location = new Point(65, 54);
+            dgvReport2.Name = "dgvReport2";
+            dgvReport2.Size = new Size(1575, 700);
+            dgvReport2.TabIndex = 3;
+            // 
             // OperatingPage
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1904, 861);
-            Controls.Add(pnlReport);
             Controls.Add(lblLogout);
+            Controls.Add(lblReport2);
             Controls.Add(lblReport);
             Controls.Add(lblOperation);
-            Controls.Add(pnlOperation);
             Controls.Add(kryptonBorderEdge1);
+            Controls.Add(pnlOperation);
+            Controls.Add(pnlReport2);
+            Controls.Add(pnlReport);
             Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
             Name = "OperatingPage";
@@ -1865,8 +2025,10 @@
             pnlOperation.PerformLayout();
             pnlReport.ResumeLayout(false);
             pnlReport.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvReport2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvReport1).EndInit();
+            pnlReport2.ResumeLayout(false);
+            pnlReport2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReport2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1903,7 +2065,7 @@
         private Label lblMisscut;
         private Label lblRemark;
         private Label lblJudgement;
-        private Label lblSizeFail;
+        private Label lblRecSizeFail;
         private Label lblSizePass;
         private Label lblLinkage1;
         private Label lblMisccut3;
@@ -1930,67 +2092,67 @@
         private Krypton.Toolkit.KryptonBorderEdge kryptonBorderEdge7;
         private Krypton.Toolkit.KryptonBorderEdge kryptonBorderEdge6;
         private Label label21;
-        private Label label22;
+        private Label lblRecLink4;
         private Label label23;
         private Label label18;
-        private Label label19;
+        private Label lblRecLink2;
         private Label label20;
         private Label label15;
-        private Label label16;
+        private Label lblRecLink1;
         private Label label17;
         private Label label12;
-        private Label label13;
+        private Label lblRecMisscut3;
         private Label label14;
         private Label label9;
-        private Label label10;
+        private Label lblRecMisscut2;
         private Label label11;
-        private Label label4;
-        private Label label2;
+        private Label lblRecMeyani;
+        private Label lblRecDefect;
         private Label label8;
-        private Label label7;
+        private Label lblRecMisscut1;
         private Label label5;
         private Label label3;
         private Label label1;
         private Label label6;
         private Label label37;
         private Label label34;
-        private Label label35;
+        private Label lblRecGF3;
         private Label label36;
         private Label label31;
-        private Label label32;
+        private Label lblRecGF2;
         private Label label33;
         private Label label28;
-        private Label label29;
+        private Label lblRecGF1;
         private Label label30;
         private Label label27;
         private Label label26;
-        private Label label25;
+        private Label lblRecLink3;
         private Label label24;
         private Label label38;
         private Label label65;
         private Label label64;
-        private Label label63;
+        private Label lblRecMacaloni2;
         private Label label62;
         private Label label61;
-        private Label label60;
+        private Label lblRecMacaloni1;
         private Label label59;
         private Label label58;
-        private Label label57;
+        private Label lblRecCA;
         private Label label56;
         private Label label55;
-        private Label label54;
+        private Label lblRecBlackSpot4;
         private Label label53;
         private Label label52;
-        private Label label51;
+        private Label lblRecBlackSpot3;
         private Label label50;
         private Label label49;
-        private Label label48;
+        private Label lblRecBlackSpot2;
         private Label label47;
-        private Label label46;
+        private Label lblRecMacaloni3;
         private Label label45;
-        private Label label44;
+        private Label lblRecBlackSpot1;
         private Label label43;
-        private Label label42;
+        private Label lblRecFM;
         private Label label41;
         private Label label40;
         private Label label39;
@@ -1999,14 +2161,22 @@
         private Label lblReport;
         private Label lblLogout;
         private Label label68;
-        private Label label67;
+        private Label lblRecMacaloni4;
         private Label label66;
         private Panel pnlReport;
-        private TextBox txbSearchReport2;
         private TextBox txbSearchReport1;
-        private DataGridView dgvReport2;
         private DataGridView dgvReport1;
         private Button btnPDFReport1;
+        private Label label69;
+        private Label label74;
+        private Label label73;
+        private Label label71;
+        private Label label72;
+        private Label label70;
+        private Label lblReport2;
+        private Panel pnlReport2;
         private Button btnPDFReport2;
+        private TextBox txbSearchReport2;
+        private DataGridView dgvReport2;
     }
 }
