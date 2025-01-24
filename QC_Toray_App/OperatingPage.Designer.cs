@@ -40,6 +40,7 @@
             label28 = new Label();
             label29 = new Label();
             label30 = new Label();
+            label68 = new Label();
             label65 = new Label();
             label27 = new Label();
             label64 = new Label();
@@ -86,6 +87,7 @@
             label38 = new Label();
             lblLinkage3 = new Label();
             lblNG = new Label();
+            label67 = new Label();
             label4 = new Label();
             label46 = new Label();
             label2 = new Label();
@@ -108,6 +110,7 @@
             lblOK = new Label();
             lblMisccut3 = new Label();
             lblMisccut2 = new Label();
+            label66 = new Label();
             label3 = new Label();
             label41 = new Label();
             lblGF1 = new Label();
@@ -150,10 +153,20 @@
             lblLabel = new Label();
             lblDate = new Label();
             lblNo = new Label();
+            pnlReport = new Panel();
+            btnPDFReport2 = new Button();
+            btnPDFReport1 = new Button();
+            txbSearchReport2 = new TextBox();
+            txbSearchReport1 = new TextBox();
+            dgvReport2 = new DataGridView();
+            dgvReport1 = new DataGridView();
             lblOperation = new Label();
             lblReport = new Label();
             lblLogout = new Label();
             pnlOperation.SuspendLayout();
+            pnlReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReport2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvReport1).BeginInit();
             SuspendLayout();
             // 
             // kryptonBorderEdge1
@@ -182,6 +195,7 @@
             pnlOperation.Controls.Add(label28);
             pnlOperation.Controls.Add(label29);
             pnlOperation.Controls.Add(label30);
+            pnlOperation.Controls.Add(label68);
             pnlOperation.Controls.Add(label65);
             pnlOperation.Controls.Add(label27);
             pnlOperation.Controls.Add(label64);
@@ -228,6 +242,7 @@
             pnlOperation.Controls.Add(label38);
             pnlOperation.Controls.Add(lblLinkage3);
             pnlOperation.Controls.Add(lblNG);
+            pnlOperation.Controls.Add(label67);
             pnlOperation.Controls.Add(label4);
             pnlOperation.Controls.Add(label46);
             pnlOperation.Controls.Add(label2);
@@ -250,6 +265,7 @@
             pnlOperation.Controls.Add(lblOK);
             pnlOperation.Controls.Add(lblMisccut3);
             pnlOperation.Controls.Add(lblMisccut2);
+            pnlOperation.Controls.Add(label66);
             pnlOperation.Controls.Add(label3);
             pnlOperation.Controls.Add(label41);
             pnlOperation.Controls.Add(lblGF1);
@@ -292,7 +308,7 @@
             pnlOperation.Controls.Add(lblLabel);
             pnlOperation.Controls.Add(lblDate);
             pnlOperation.Controls.Add(lblNo);
-            pnlOperation.Location = new Point(204, 0);
+            pnlOperation.Location = new Point(204, 2);
             pnlOperation.Name = "pnlOperation";
             pnlOperation.Size = new Size(1701, 861);
             pnlOperation.TabIndex = 5;
@@ -417,6 +433,18 @@
             label30.TabIndex = 52;
             label30.Text = "Pass";
             label30.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label68
+            // 
+            label68.BorderStyle = BorderStyle.FixedSingle;
+            label68.Font = new Font("Segoe UI", 9F);
+            label68.Location = new Point(1389, 647);
+            label68.Margin = new Padding(0);
+            label68.Name = "label68";
+            label68.Size = new Size(90, 20);
+            label68.TabIndex = 48;
+            label68.Text = "Fail";
+            label68.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label65
             // 
@@ -961,6 +989,18 @@
             lblNG.Text = "NG";
             lblNG.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // label67
+            // 
+            label67.BorderStyle = BorderStyle.FixedSingle;
+            label67.Font = new Font("Segoe UI", 9F);
+            label67.Location = new Point(1300, 647);
+            label67.Margin = new Padding(0);
+            label67.Name = "label67";
+            label67.Size = new Size(90, 20);
+            label67.TabIndex = 20;
+            label67.Text = "Fail";
+            label67.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // label4
             // 
             label4.BorderStyle = BorderStyle.FixedSingle;
@@ -1217,6 +1257,18 @@
             lblMisccut2.TabIndex = 20;
             lblMisccut2.Text = "Triple";
             lblMisccut2.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label66
+            // 
+            label66.BorderStyle = BorderStyle.FixedSingle;
+            label66.Font = new Font("Segoe UI", 9F);
+            label66.Location = new Point(1211, 647);
+            label66.Margin = new Padding(0);
+            label66.Name = "label66";
+            label66.Size = new Size(90, 20);
+            label66.TabIndex = 20;
+            label66.Text = "Pass";
+            label66.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -1685,6 +1737,71 @@
             lblNo.TabIndex = 0;
             lblNo.Text = "No.";
             // 
+            // pnlReport
+            // 
+            pnlReport.Controls.Add(btnPDFReport2);
+            pnlReport.Controls.Add(btnPDFReport1);
+            pnlReport.Controls.Add(txbSearchReport2);
+            pnlReport.Controls.Add(txbSearchReport1);
+            pnlReport.Controls.Add(dgvReport2);
+            pnlReport.Controls.Add(dgvReport1);
+            pnlReport.Location = new Point(204, 2);
+            pnlReport.Name = "pnlReport";
+            pnlReport.Size = new Size(1701, 860);
+            pnlReport.TabIndex = 69;
+            // 
+            // btnPDFReport2
+            // 
+            btnPDFReport2.Location = new Point(910, 796);
+            btnPDFReport2.Name = "btnPDFReport2";
+            btnPDFReport2.Size = new Size(101, 35);
+            btnPDFReport2.TabIndex = 2;
+            btnPDFReport2.Text = "Export PDF";
+            btnPDFReport2.UseVisualStyleBackColor = true;
+            btnPDFReport2.Click += btnPDFReport2_Click;
+            // 
+            // btnPDFReport1
+            // 
+            btnPDFReport1.Location = new Point(65, 796);
+            btnPDFReport1.Name = "btnPDFReport1";
+            btnPDFReport1.Size = new Size(101, 35);
+            btnPDFReport1.TabIndex = 2;
+            btnPDFReport1.Text = "Export PDF";
+            btnPDFReport1.UseVisualStyleBackColor = true;
+            btnPDFReport1.Click += btnPDFReport1_Click;
+            // 
+            // txbSearchReport2
+            // 
+            txbSearchReport2.Location = new Point(910, 11);
+            txbSearchReport2.Name = "txbSearchReport2";
+            txbSearchReport2.PlaceholderText = "Search...";
+            txbSearchReport2.Size = new Size(243, 29);
+            txbSearchReport2.TabIndex = 1;
+            // 
+            // txbSearchReport1
+            // 
+            txbSearchReport1.Location = new Point(65, 11);
+            txbSearchReport1.Name = "txbSearchReport1";
+            txbSearchReport1.PlaceholderText = "Search...";
+            txbSearchReport1.Size = new Size(243, 29);
+            txbSearchReport1.TabIndex = 1;
+            // 
+            // dgvReport2
+            // 
+            dgvReport2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvReport2.Location = new Point(910, 54);
+            dgvReport2.Name = "dgvReport2";
+            dgvReport2.Size = new Size(700, 700);
+            dgvReport2.TabIndex = 0;
+            // 
+            // dgvReport1
+            // 
+            dgvReport1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvReport1.Location = new Point(65, 54);
+            dgvReport1.Name = "dgvReport1";
+            dgvReport1.Size = new Size(700, 700);
+            dgvReport1.TabIndex = 0;
+            // 
             // lblOperation
             // 
             lblOperation.AutoSize = true;
@@ -1695,6 +1812,9 @@
             lblOperation.Size = new Size(148, 37);
             lblOperation.TabIndex = 7;
             lblOperation.Text = "Opeartion";
+            lblOperation.Click += lblOperation_Click;
+            lblOperation.MouseLeave += lblOperation_MouseLeave;
+            lblOperation.MouseHover += lblOperation_MouseHover;
             // 
             // lblReport
             // 
@@ -1706,6 +1826,9 @@
             lblReport.Size = new Size(106, 37);
             lblReport.TabIndex = 7;
             lblReport.Text = "Report";
+            lblReport.Click += lblReport_Click;
+            lblReport.MouseLeave += lblReport_MouseLeave;
+            lblReport.MouseHover += lblReport_MouseHover;
             // 
             // lblLogout
             // 
@@ -1718,6 +1841,8 @@
             lblLogout.TabIndex = 7;
             lblLogout.Text = "Logout";
             lblLogout.Click += lblLogout_Click;
+            lblLogout.MouseLeave += lblLogout_MouseLeave;
+            lblLogout.MouseHover += lblLogout_MouseHover;
             // 
             // OperatingPage
             // 
@@ -1725,6 +1850,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1904, 861);
+            Controls.Add(pnlReport);
             Controls.Add(lblLogout);
             Controls.Add(lblReport);
             Controls.Add(lblOperation);
@@ -1737,6 +1863,10 @@
             Load += OperatingPage_Load;
             pnlOperation.ResumeLayout(false);
             pnlOperation.PerformLayout();
+            pnlReport.ResumeLayout(false);
+            pnlReport.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReport2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvReport1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1868,5 +1998,15 @@
         private Label lblOperation;
         private Label lblReport;
         private Label lblLogout;
+        private Label label68;
+        private Label label67;
+        private Label label66;
+        private Panel pnlReport;
+        private TextBox txbSearchReport2;
+        private TextBox txbSearchReport1;
+        private DataGridView dgvReport2;
+        private DataGridView dgvReport1;
+        private Button btnPDFReport1;
+        private Button btnPDFReport2;
     }
 }
