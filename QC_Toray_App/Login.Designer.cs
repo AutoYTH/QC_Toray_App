@@ -72,6 +72,7 @@
             txbPassword.PlaceholderText = "Passoword";
             txbPassword.Size = new Size(289, 29);
             txbPassword.TabIndex = 2;
+            txbPassword.UseSystemPasswordChar = true;
             // 
             // txbUser
             // 
